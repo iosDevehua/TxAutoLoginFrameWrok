@@ -1,0 +1,6 @@
+framework module TXLoginoauthSDK {
+  umbrella header "TXLoginOauthSDK.h"
+
+  export *
+  module * { export * }
+}
