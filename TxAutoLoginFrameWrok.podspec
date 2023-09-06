@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "TxAutoLoginFrameWrok"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of TxAutoLoginFrameWrok."
+  spec.summary      = "This is a TXCloudframework for auto login functionality."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+       This is a framework that provides auto login functionality for iOS apps. It allows users to easily log in to the app using their existing credentials and provides seamless integration with OAuth providers.
                    DESC
 
   spec.homepage     = "http://github.com/iosDevehua/TxAutoLoginFrameWrok"
@@ -38,8 +39,8 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #spec.license      = "MIT (example)"
+  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
